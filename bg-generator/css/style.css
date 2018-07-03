@@ -1,0 +1,25 @@
+body{
+  color: rgba(0,0,0,.5);
+  text-align: center;
+/*  background: linear-gradient(to right, red, yellow);*/
+  }
+
+h1{
+  color: rgba(0,0,0,.5);
+  font-weight:600;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+input {
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-appearance: none;
+  background-color: transparent;
+  }
