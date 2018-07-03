@@ -1,0 +1,62 @@
+.initial {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  text-align: center;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+
+
+.next1 {
+  display:flex;
+  justify-content: center;
+  margin-bottom: 10px
+}
+
+#enter {
+  margin: 0px 0px 0px 5px;
+  padding: 5px 20px 5px 20px;
+  text-align: center;
+  background-color: #f7f7f7;
+  border: 4px solid #f7f7f7;
+  border-radius: 3px;
+}
+
+ul {
+  padding: 0px 20px;
+  min-width: 300px;
+}
+
+.box {
+  border-radius: 5px;
+  background-color: pink;
+  text-decoration: none;
+}
+
+.next2 {
+  display: flex;
+  justify-content: center;
+  align-items: space-bewteen;
+ }
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  cursor: pointer;
+  box-sizing: border-box;
+  background: #f7f7f7;
+}
+
+ul li:nth-Child(odd){
+  background-color: #eee;
+}
