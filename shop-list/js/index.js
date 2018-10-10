@@ -16,13 +16,13 @@ function createListElement() {
     var span = document.createElement("span"); // creates Span
     var btn = document.createElement("button");  // creates button tag
     span.textContent = input.value; //adds text to span tag based on input.value
-    btn.textContent = "x"; 
-    btn.setAttribute("class", "box");    
+    btn.textContent = "x";
+    btn.setAttribute("class", "box");
     //li.appendChild(document.createTextNode(input.value));
     li.appendChild(span); // adds the span inside the LI
     li.appendChild(btn); // adds the button inside the LI
     ul.appendChild(li); // appends the LI to the UL
-    input.value = ""; 
+    input.value = "";
     for (var i = 0; i < box.length; i++) {
       var delLi = box[i];
       delLi.addEventListener('click', function(event) {
@@ -65,7 +65,7 @@ for(var i = 0, l = spans.length; i < l; i++){
     event.target.classList.toggle("done");
 
 });
-} 
+}
 
 for (var i = 0; i < box.length; i++) {
       var delLi = box[i];

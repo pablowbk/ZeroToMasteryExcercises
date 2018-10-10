@@ -1,4 +1,4 @@
-.initial {
+.container {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
@@ -15,7 +15,7 @@ input {
 
 
 
-.next1 {
+.inputs {
   display:flex;
   justify-content: center;
   margin-bottom: 10px
@@ -41,7 +41,7 @@ ul {
   text-decoration: none;
 }
 
-.next2 {
+.list {
   display: flex;
   justify-content: center;
   align-items: space-bewteen;
